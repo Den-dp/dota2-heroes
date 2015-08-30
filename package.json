@@ -1,0 +1,27 @@
+{
+  "name": "dota2-heroes",
+  "version": "1.0.0",
+  "description": "Get random Dota 2 hero name",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Den-dp/dota2-heroes.git"
+  },
+  "keywords": [
+    "random",
+    "Dota2",
+    "hero"
+  ],
+  "author": "Den-dp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Den-dp/dota2-heroes/issues"
+  },
+  "homepage": "https://github.com/Den-dp/dota2-heroes#readme",
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  }
+}
