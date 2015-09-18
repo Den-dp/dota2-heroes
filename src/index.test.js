@@ -15,13 +15,21 @@ describe('dota2-heroes', function () {
 
         it('should contain `Pudge`', function () {
             expect(dota2Heroes.all).to.include('Pudge');
-        })
+        });
     });
 
     describe('random', function () {
         it('should return a random item from the dota2Heroes.all', function () {
             var randomItem = dota2Heroes.random();
             expect(dota2Heroes.all).to.include(randomItem);
-        })
+        });
+
+        it('should return an array of random items if passed a number', function () {
+            var randomItems = dota2Heroes.random(3);
+            expect(randomItems).to.have.length(3);
+            randomItems.forEach(function (item) {
+                expect(dota2Heroes.all).to.include(item);
+            });
+        });
     });
 });
