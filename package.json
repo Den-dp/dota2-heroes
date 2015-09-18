@@ -1,14 +1,17 @@
 {
   "name": "dota2-heroes",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released.0",
   "description": "Get random Dota 2 hero name",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Den-dp/dota2-heroes.git"
+    "url": "https://github.com/Den-dp/dota2-heroes.git"
   },
   "keywords": [
     "random",
@@ -26,6 +29,12 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
-    "mocha": "^2.2.5"
+    "commitizen": "^1.0.4",
+    "cz-conventional-changelog": "^1.1.0",
+    "mocha": "^2.2.5",
+    "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
