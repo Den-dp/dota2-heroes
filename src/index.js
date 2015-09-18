@@ -1,11 +1,11 @@
-var uniqueRandomArray = require('unique-random-array');
-var dota2Heroes = require('./dota2-heroes.json');
+import uniqueRandomArray from 'unique-random-array';
+import dota2Heroes from './dota2-heroes.json';
 var getRandomItem = uniqueRandomArray(dota2Heroes);
 
-module.exports = {
+export default {
     all: dota2Heroes,
     random: random
-};
+}
 
 function random(number) {
     if (number === undefined) {
