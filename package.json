@@ -1,6 +1,6 @@
 {
   "name": "dota2-heroes",
-  "version": "0.0.0-semantically-released.0",
+  "version": "0.0.0-semantically-released",
   "description": "Get random Dota 2 hero name",
   "main": "src/index.js",
   "scripts": {
