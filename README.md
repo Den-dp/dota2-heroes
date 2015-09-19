@@ -10,6 +10,24 @@
 [![Dependency Status](https://img.shields.io/david/den-dp/dota2-heroes.svg?style=flat-square)](https://david-dm.org/den-dp/dota2-heroes)
 [![devDependency Status](https://img.shields.io/david/dev/den-dp/dota2-heroes.svg?style=flat-square)](https://david-dm.org/den-dp/dota2-heroes#info=devDependencies)
 
+Get a random Dota 2 hero name.
+
+## Installation
+
+This package is distributed via npm:
+
+```
+npm install dota2-heroes
+```
+
+## Usage
+
+```javascript
+var names = require('dota2-heroes');
+var allNames = names.all;
+var randomName = names.random();
+var threeRandomNames = names.random(3);
+```
 
 ## Contributing
 [conventional-changelog](https://github.com/ajoslin/conventional-changelog/blob/master/conventions/angular.md)
