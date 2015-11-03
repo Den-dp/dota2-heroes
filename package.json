@@ -4,9 +4,9 @@
   "description": "Get random Dota 2 hero name",
   "main": "dist/index.js",
   "scripts": {
-    "prebuild": "rm -rf dist && mkdir dist",
+    "prebuild": "rimraf dist && mkdirp dist",
     "build": "babel src/index.js -o dist/index.js",
-    "postbuild": "cp src/dota2-heroes.json dist/dota2-heroes.json",
+    "postbuild": "cpy src/dota2-heroes.json dist",
     "commit": "git-cz",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
@@ -35,19 +35,23 @@
   },
   "devDependencies": {
     "babel": "^5.8.23",
-    "chai": "^3.2.0",
+    "chai": "^3.4.0",
     "codecov.io": "^0.1.6",
-    "commitizen": "^2.3.0",
-    "cz-conventional-changelog": "^1.1.0",
+    "commitizen": "^2.4.1",
+    "cpy": "^3.4.1",
+    "cz-conventional-changelog": "^1.1.4",
     "ghooks": "^0.3.2",
     "istanbul": "^0.4.0",
-    "mocha": "^2.2.5",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.3.3",
+    "posix-cat": "^1.1.1",
+    "rimraf": "^2.4.3",
     "semantic-release": "^4.3.5"
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
-  },
   "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    },
     "ghooks": {
       "pre-commit": "npm run test:single && npm run check-coverage"
     }
