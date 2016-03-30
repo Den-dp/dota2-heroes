@@ -40,7 +40,7 @@
     "commitizen": "^2.4.1",
     "cpy": "^3.4.1",
     "cz-conventional-changelog": "^1.1.4",
-    "ghooks": "^0.3.2",
+    "ghooks": "^1.1.1",
     "istanbul": "^0.4.0",
     "mkdirp": "^0.5.1",
     "mocha": "^2.3.3",
