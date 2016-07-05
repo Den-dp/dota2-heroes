@@ -34,7 +34,7 @@
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
-    "babel": "^5.8.23",
+    "babel": "^6.1.18",
     "chai": "^3.4.0",
     "codecov.io": "^0.1.6",
     "commitizen": "^2.4.1",
