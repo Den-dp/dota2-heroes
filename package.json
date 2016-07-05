@@ -38,7 +38,7 @@
     "chai": "^3.4.0",
     "codecov.io": "^0.1.6",
     "commitizen": "^2.4.1",
-    "cpy": "^3.4.1",
+    "cpy": "^4.0.0",
     "cz-conventional-changelog": "^1.1.4",
     "ghooks": "^0.3.2",
     "istanbul": "^0.4.0",
