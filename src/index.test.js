@@ -7,14 +7,12 @@ describe('dota2-heroes', () => {
             expect(dota2Heroes.all).to.satisfy(isArrayOfStrings);
 
             function isArrayOfStrings(array){
-                return array.every(function (item) {
-                    return typeof item === 'string';
-                });
+                return array.every(item => typeof item === 'string');
             }
         });
 
-        it('should contain `Pudge`', () => {
-            expect(dota2Heroes.all).to.include('Pudge');
+        it('should contain `Underlord`', () => {
+            expect(dota2Heroes.all).to.include('Underlord');
         });
     });
 
@@ -27,9 +25,7 @@ describe('dota2-heroes', () => {
         it('should return an array of random items if passed a number', () => {
             var randomItems = dota2Heroes.random(3);
             expect(randomItems).to.have.length(3);
-            randomItems.forEach(function (item) {
-                expect(dota2Heroes.all).to.include(item);
-            });
+            randomItems.forEach(item => expect(dota2Heroes.all).to.include(item));
         });
     });
 });

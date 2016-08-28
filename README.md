@@ -1,16 +1,20 @@
 # dota2-heroes 
 
-[![Build Status](https://img.shields.io/travis/Den-dp/dota2-heroes.svg?style=flat-square)](https://travis-ci.org/Den-dp/dota2-heroes)
-[![codecov coverage](https://img.shields.io/codecov/c/github/Den-dp/dota2-heroes.svg?style=flat-square)](https://codecov.io/github/Den-dp/dota2-heroes)
-[![version](https://img.shields.io/npm/v/dota2-heroes.svg?style=flat-square)](https://www.npmjs.com/package/dota2-heroes)
-[![downloads](https://img.shields.io/npm/dm/dota2-heroes.svg?style=flat-square)](http://npm-stat.com/charts.html?package=dota2-heroes&from=2015-08-01)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
+> Get a random Dota 2 hero name.
+
+[![NPM][dota2-heroes-icon] ][dota2-heroes-url]
+
+
+[![Build Status] [dota2-heroes-ci-image] ][dota2-heroes-ci-url]
+[![Coverage Status][dota2-heroes-coverage-image]][dota2-heroes-coverage-url]
+[![version][dota2-heroes-version-image]][dota2-heroes-version-url]
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![semantic-release][semantic-image] ][semantic-url]
+[![dependencies][dota2-heroes-dependencies-image] ][dota2-heroes-dependencies-url]
+[![devdependencies][dota2-heroes-devdependencies-image] ][dota2-heroes-devdependencies-url]
 
-[![Dependency Status](https://img.shields.io/david/den-dp/dota2-heroes.svg?style=flat-square)](https://david-dm.org/den-dp/dota2-heroes)
-[![devDependency Status](https://img.shields.io/david/dev/den-dp/dota2-heroes.svg?style=flat-square)](https://david-dm.org/den-dp/dota2-heroes#info=devDependencies)
-
-Get a random Dota 2 hero name.
+## Last added hero
+![uv6ibytldn8](https://cloud.githubusercontent.com/assets/1770529/17912486/9959653c-699c-11e6-8124-0fbde398099c.jpg)
 
 ## Installation
 
@@ -32,3 +36,19 @@ var threeRandomNames = names.random(3);
 ## Contributing
 [conventional-changelog](https://github.com/ajoslin/conventional-changelog/blob/master/conventions/angular.md)
 
+[dota2-heroes-icon]: https://nodei.co/npm/dota2-heroes.svg?downloads=true
+[dota2-heroes-url]: https://npmjs.org/package/dota2-heroes
+[dota2-heroes-version-image]: https://img.shields.io/npm/v/dota2-heroes.svg?style=flat-square
+[dota2-heroes-version-url]: https://npmjs.org/package/dota2-heroes
+[dota2-heroes-ci-image]: https://img.shields.io/travis/Den-dp/dota2-heroes.svg?style=flat-square
+[dota2-heroes-ci-url]: https://travis-ci.org/Den-dp/dota2-heroes
+[dota2-heroes-coverage-image]: https://img.shields.io/codecov/c/github/Den-dp/dota2-heroes.svg?style=flat-square
+[dota2-heroes-coverage-url]: https://codecov.io/github/Den-dp/dota2-heroes
+[dota2-heroes-dependencies-image]: https://img.shields.io/david/den-dp/dota2-heroes.svg?style=flat-square
+[dota2-heroes-dependencies-url]: https://david-dm.org/den-dp/dota2-heroes
+[dota2-heroes-devdependencies-image]: https://img.shields.io/david/dev/den-dp/dota2-heroes.svg?style=flat-square
+[dota2-heroes-devdependencies-url]: https://david-dm.org/den-dp/dota2-heroes#info=devDependencies
+[semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
+[semantic-url]: https://github.com/semantic-release/semantic-release
+[commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
+[commitizen-url]: http://commitizen.github.io/cz-cli/
