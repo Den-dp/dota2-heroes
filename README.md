@@ -2,16 +2,14 @@
 
 > Get a random Dota 2 hero name.
 
-[![NPM][dota2-heroes-icon] ][dota2-heroes-url]
+[![NPM][dota2-heroes-icon]][dota2-heroes-url]
 
-
-[![Build Status] [dota2-heroes-ci-image] ][dota2-heroes-ci-url]
+[![Build Status][dota2-heroes-ci-image]][dota2-heroes-ci-url]
 [![Coverage Status][dota2-heroes-coverage-image]][dota2-heroes-coverage-url]
-[![version][dota2-heroes-version-image]][dota2-heroes-version-url]
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
-[![semantic-release][semantic-image] ][semantic-url]
-[![dependencies][dota2-heroes-dependencies-image] ][dota2-heroes-dependencies-url]
-[![devdependencies][dota2-heroes-devdependencies-image] ][dota2-heroes-devdependencies-url]
+[![Commitizen friendly][commitizen-image]][commitizen-url]
+[![semantic-release][semantic-image]][semantic-url]
+[![dependencies][dota2-heroes-dependencies-image]][dota2-heroes-dependencies-url]
+[![devdependencies][dota2-heroes-devdependencies-image]][dota2-heroes-devdependencies-url]
 
 ## Last added hero
 ![uv6ibytldn8](https://cloud.githubusercontent.com/assets/1770529/17912486/9959653c-699c-11e6-8124-0fbde398099c.jpg)
@@ -38,8 +36,6 @@ var threeRandomNames = names.random(3);
 
 [dota2-heroes-icon]: https://nodei.co/npm/dota2-heroes.svg?downloads=true
 [dota2-heroes-url]: https://npmjs.org/package/dota2-heroes
-[dota2-heroes-version-image]: https://img.shields.io/npm/v/dota2-heroes.svg?style=flat-square
-[dota2-heroes-version-url]: https://npmjs.org/package/dota2-heroes
 [dota2-heroes-ci-image]: https://img.shields.io/travis/Den-dp/dota2-heroes.svg?style=flat-square
 [dota2-heroes-ci-url]: https://travis-ci.org/Den-dp/dota2-heroes
 [dota2-heroes-coverage-image]: https://img.shields.io/codecov/c/github/Den-dp/dota2-heroes.svg?style=flat-square
