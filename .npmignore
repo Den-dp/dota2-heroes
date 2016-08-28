@@ -1,6 +1,0 @@
-.idea/
-node_modules/
-coverage/
-.git
-.npmrc
-npm-debug.log

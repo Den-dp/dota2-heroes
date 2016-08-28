@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import dota2Heroes from './index';
+import * as dota2Heroes from './index';
 
 describe('dota2-heroes', () => {
     describe('all', () => {

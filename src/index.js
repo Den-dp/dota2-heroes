@@ -2,10 +2,7 @@ import uniqueRandomArray from 'unique-random-array';
 import dota2Heroes from './dota2-heroes.json';
 var getRandomItem = uniqueRandomArray(dota2Heroes);
 
-export default {
-    all: dota2Heroes,
-    random: random
-}
+const all = dota2Heroes;
 
 function random(number) {
     if (number === undefined) {
@@ -18,3 +15,5 @@ function random(number) {
         return randomItems;
     }
 }
+
+export {all as default, all, random};
