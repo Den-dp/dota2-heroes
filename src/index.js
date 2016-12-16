@@ -1,13 +1,13 @@
 import uniqueRandomArray from 'unique-random-array';
 import DOTA2_HEROES from './dota2-heroes.json';
-var getRandomItem = uniqueRandomArray(DOTA2_HEROES);
+const getRandomItem = uniqueRandomArray(DOTA2_HEROES);
 
 function random(number) {
     if (number === undefined) {
         return getRandomItem();
     } else {
-        var randomItems = [];
-        for (var i = 0; i < number; i++) {
+        let randomItems = [];
+        for (let i = 0; i < number; i++) {
             randomItems.push(getRandomItem());
         }
         return randomItems;
