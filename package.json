@@ -54,7 +54,7 @@
     "nyc": "^8.1.0",
     "posix-cat": "^1.1.1",
     "rimraf": "^2.4.3",
-    "semantic-release": "^4.3.5",
+    "semantic-release": "^6.3.6",
     "webpack": "^1.13.2"
   },
   "config": {
