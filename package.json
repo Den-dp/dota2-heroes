@@ -55,7 +55,7 @@
     "posix-cat": "^1.1.1",
     "rimraf": "^2.4.3",
     "semantic-release": "^4.3.5",
-    "webpack": "^1.13.2"
+    "webpack": "^2.5.1"
   },
   "config": {
     "commitizen": {
