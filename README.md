@@ -12,7 +12,7 @@
 [![devdependencies][dota2-heroes-devdependencies-image]][dota2-heroes-devdependencies-url]
 
 ## Last added hero
-![uv6ibytldn8](https://cloud.githubusercontent.com/assets/1770529/21268472/9fab80e4-c3b7-11e6-9287-519f24b483ea.jpg)
+![uv6ibytldn8](https://user-images.githubusercontent.com/1770529/33741747-3e36ad88-dbae-11e7-8ed9-52971792889f.png)
 
 ## Installation
 

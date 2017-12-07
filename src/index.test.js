@@ -14,6 +14,14 @@ describe('dota2-heroes', () => {
         it('should contain `Underlord`', () => {
             expect(dota2Heroes.all).to.include('Underlord');
         });
+
+        it('should contain `Dark Willow`', () => {
+            expect(dota2Heroes.all).to.include('Dark Willow');
+        });
+
+        it('should contain `Pangolier`', () => {
+            expect(dota2Heroes.all).to.include('Pangolier');
+        });
     });
 
     describe('random', () => {
