@@ -32,7 +32,7 @@ var threeRandomNames = names.random(3);
 ```
 
 ## Contributing
-[conventional-changelog](https://github.com/ajoslin/conventional-changelog/blob/master/conventions/angular.md)
+[How to contribute](https://github.com/Den-dp/dota2-heroes/blob/master/CONTRIBUTING.md)
 
 [dota2-heroes-icon]: https://nodei.co/npm/dota2-heroes.svg?downloads=true
 [dota2-heroes-url]: https://npmjs.org/package/dota2-heroes
