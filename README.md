@@ -12,7 +12,7 @@
 [![devdependencies][dota2-heroes-devdependencies-image]][dota2-heroes-devdependencies-url]
 
 ## Last added hero
-![uv6ibytldn8](https://user-images.githubusercontent.com/1770529/33741747-3e36ad88-dbae-11e7-8ed9-52971792889f.png)
+![Grimstroke](https://user-images.githubusercontent.com/1770529/45055117-9cae0280-b097-11e8-99a0-7c5436488a4c.png)
 
 ## Installation
 

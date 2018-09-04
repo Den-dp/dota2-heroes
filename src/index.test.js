@@ -22,6 +22,10 @@ describe('dota2-heroes', () => {
         it('should contain `Pangolier`', () => {
             expect(dota2Heroes.all).to.include('Pangolier');
         });
+
+        it('should contain `Grimstroke`', () => {
+            expect(dota2Heroes.all).to.include('Grimstroke');
+        });
     });
 
     describe('random', () => {
