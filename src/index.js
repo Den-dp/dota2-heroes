@@ -1,8 +1,9 @@
 import uniqueRandomArray from 'unique-random-array';
 import DOTA2_HEROES from './dota2-heroes.json';
+
 const getRandomItem = uniqueRandomArray(DOTA2_HEROES);
 
-function random(number) {
+export function random(number) {
     if (number === undefined) {
         return getRandomItem();
     } else {
@@ -14,4 +15,4 @@ function random(number) {
     }
 }
 
-export {DOTA2_HEROES as default, DOTA2_HEROES as all, random};
+export { DOTA2_HEROES as all };

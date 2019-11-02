@@ -6,7 +6,7 @@ describe('dota2-heroes', () => {
         it('should be an array of strings', () => {
             expect(dota2Heroes.all).to.satisfy(isArrayOfStrings);
 
-            function isArrayOfStrings(array){
+            function isArrayOfStrings(array) {
                 return array.every(item => typeof item === 'string');
             }
         });
@@ -25,6 +25,14 @@ describe('dota2-heroes', () => {
 
         it('should contain `Grimstroke`', () => {
             expect(dota2Heroes.all).to.include('Grimstroke');
+        });
+
+        it('should contain `Mars`', () => {
+            expect(dota2Heroes.all).to.include('Mars');
+        });
+
+        it('should contain 117 heroes', () => {
+            expect(dota2Heroes.all).to.have.length(117);
         });
     });
 
