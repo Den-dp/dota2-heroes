@@ -9,16 +9,12 @@ branches:
 notifications:
   email: false
 node_js:
-  - "4"
-  - "6"
-before_install:
-  - npm i -g npm@^3.0.0
+  - "12"
 before_script:
   - npm prune
 script:
-  - npm run cover
   - npm run check-coverage
   - npm run build
 after_success:
   - npm run report-coverage
-  - npm run semantic-release
+  - npx semantic-release@15
