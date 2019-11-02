@@ -1,6 +1,6 @@
 {
   "name": "dota2-heroes",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0-development",
   "description": "Get random Dota 2 hero name",
   "main": "dist/dota2-heroes.umd.js",
   "module": "src/index.js",
@@ -10,7 +10,8 @@
     "build": "webpack --mode development",
     "commit": "git-cz",
     "check-coverage": "jest --coverage",
-    "report-coverage": "codecov"
+    "report-coverage": "codecov",
+    "semantic-release": "semantic-release"
   },
   "jest": {
     "coverageThreshold": {
@@ -57,7 +58,8 @@
     "jest": "^24.9.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
-    "webpack-global-object-x": "^1.0.0"
+    "webpack-global-object-x": "^1.0.0",
+    "semantic-release": "^15.13.29"
   },
   "config": {
     "commitizen": {
