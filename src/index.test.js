@@ -43,8 +43,12 @@ describe('dota2-heroes', () => {
             expect(dota2Heroes.all).to.include('Hoodwink');
         });
 
-        it('should contain 120 heroes', () => {
-            expect(dota2Heroes.all).to.have.length(120);
+        it('should contain `Dawnbreaker`', () => {
+            expect(dota2Heroes.all).to.include('Dawnbreaker');
+        });
+
+        it('should contain 121 heroes', () => {
+            expect(dota2Heroes.all).to.have.length(121);
         });
     });
 
