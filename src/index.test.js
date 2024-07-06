@@ -51,8 +51,12 @@ describe('dota2-heroes', () => {
             expect(dota2Heroes.all).to.include('Marci');
         });
 
-        it('should contain 122 heroes', () => {
-            expect(dota2Heroes.all).to.have.length(122);
+        it('should contain `Primal Beast`', () => {
+            expect(dota2Heroes.all).to.include('Primal Beast');
+        });
+
+        it('should contain 123 heroes', () => {
+            expect(dota2Heroes.all).to.have.length(123);
         });
     });
 
