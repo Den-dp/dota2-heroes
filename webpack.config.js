@@ -1,12 +1,14 @@
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const globalObject = require('webpack-global-object-x');
 
 module.exports = {
     output: {
         globalObject: '(' + globalObject.toString() + '())',
         filename: 'dota2-heroes.umd.js',
-        libraryTarget: 'umd',
-        library: 'dota2heroes'
+        library: {
+            name: 'dota2heroes',
+            type: 'umd'
+        },
+        clean: true
     },
     module: {
         rules: [
@@ -14,7 +16,4 @@ module.exports = {
         ]
     },
     devtool: 'source-map',
-    plugins: [
-        new CleanWebpackPlugin()
-    ]
 };
