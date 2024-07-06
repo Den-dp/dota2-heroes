@@ -39,8 +39,12 @@ describe('dota2-heroes', () => {
             expect(dota2Heroes.all).to.include('Void Spirit');
         });
 
-        it('should contain 119 heroes', () => {
-            expect(dota2Heroes.all).to.have.length(119);
+        it('should contain `Hoodwink`', () => {
+            expect(dota2Heroes.all).to.include('Hoodwink');
+        });
+
+        it('should contain 120 heroes', () => {
+            expect(dota2Heroes.all).to.have.length(120);
         });
     });
 
