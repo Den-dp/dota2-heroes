@@ -5,7 +5,7 @@
 [![NPM][dota2-heroes-icon]][dota2-heroes-url]
 
 ## Last added hero
-![Muerta](https://github.com/Den-dp/dota2-heroes/assets/1770529/3fd6a525-e407-4a5c-b0e8-6411d2ce0730)
+![Ringmaster](https://github.com/user-attachments/assets/bfe8789d-7918-47d1-bb16-dca5bcf7c6e0)
 
 ## Installation
 
