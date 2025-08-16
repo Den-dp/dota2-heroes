@@ -18,10 +18,10 @@ npm install dota2-heroes
 ## Usage
 
 ```javascript
-var names = require('dota2-heroes');
-var allNames = names.all;
-var randomName = names.random();
-var threeRandomNames = names.random(3);
+import { all, random } from 'dota2-heroes';
+const allNames = all;
+const randomName = random();
+const threeRandomNames = random(3);
 ```
 
 ## Contributing

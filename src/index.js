@@ -1,5 +1,5 @@
 import uniqueRandomArray from 'unique-random-array';
-import DOTA2_HEROES from './dota2-heroes.json';
+import DOTA2_HEROES from './dota2-heroes.json' with { type: 'json' };
 
 const getRandomItem = uniqueRandomArray(DOTA2_HEROES);
 

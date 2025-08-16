@@ -9,7 +9,7 @@ To contribute to the project, please follow these steps:
 5. Run `npm start`
 6. Make your changes
 7. Test your changes (we have a githook that disallows anything less than 100% code coverage)
-8. Run `git add -A` to add your changes (please don't add any changes to the `dist` directory).
-9. Run `npm run commit` (**Do not** use `git commit`) - follow the prompts to create your git message
+8. Run `git add -A` to add your changes
+9. Run `npm run commit` or `git cz` (**Do not** use `git commit`) - follow the prompts to create your git message
 10. Push your changes with `git push`
 11. Create the Pull Request

@@ -14,14 +14,14 @@ jobs:
       pull-requests: write
       id-token: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
       - run: npm clean-install
       - run: npm audit signatures
-      - run: npm test
-      - run: npm run build
+#      - run: npm test
+      - run: npm run check-coverage
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
