@@ -1,5 +1,6 @@
-import {expect} from 'chai';
-import * as dota2Heroes from './index';
+import { describe, it } from 'node:test';
+import { expect } from 'chai';
+import * as dota2Heroes from 'dota2-heroes';
 
 describe('dota2-heroes', () => {
     describe('all', () => {
